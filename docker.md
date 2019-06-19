@@ -12,6 +12,7 @@
 Usage: Run a command in a new container
 中文意思为：通过run命令创建一个新的容器（container）
 >docker run -itd --name=appname -p 5000:80 -v /usr/data:/app/data/ -v /usr/a.txt:/app/b.txt --restart=always dockername
+
 >docker exec -it dockername /bin/bash  进入docker
 
 常用选项说明
